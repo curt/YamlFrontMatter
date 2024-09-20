@@ -10,4 +10,20 @@
     <PackageReference Include="YamlDotNet" Version="16.1.2" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageId>SevenKilo.YamlFrontMatter</PackageId>
+    <Authors>Curt Gilman</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/sevenkilo/YamlFrontMatter.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/sevenkilo/YamlFrontMatter</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>Copyright © 2024 Curt Gilman</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
 </Project>
